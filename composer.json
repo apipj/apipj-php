@@ -1,0 +1,56 @@
+{
+    "name": "apipj/apipj",
+    "description": "API CNPJ gratuita para PHP: consultar CNPJ na Receita Federal, validar CNPJ e CNPJ alfanumérico. Brazilian CNPJ company lookup (free API).",
+    "type": "library",
+    "keywords": [
+        "cnpj",
+        "api cnpj",
+        "consultar cnpj",
+        "consulta cnpj",
+        "receita federal",
+        "validar cnpj",
+        "cnpj alfanumerico",
+        "brasil",
+        "brazil",
+        "empresa",
+        "laravel"
+    ],
+    "homepage": "https://apipj.com.br",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "MASTER BI TECNOLOGIA LTDA",
+            "homepage": "https://apipj.com.br"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/apipj/apipj-php/issues",
+        "source": "https://github.com/apipj/apipj-php",
+        "docs": "https://apipj.com.br/docs"
+    },
+    "require": {
+        "php": ">=8.1",
+        "ext-curl": "*",
+        "ext-json": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.5 || ^11.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Apipj\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Apipj\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "phpunit"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "stable"
+}
